@@ -77,3 +77,11 @@ Open [http://localhost:3000](http://localhost:3000) to view the application loca
 ## 🔗 Live Application
 
 - **Production URL:** [https://bob-ai-hackathon-codecrafter-3arr.vercel.app/](https://bob-ai-hackathon-codecrafter-3arr.vercel.app/)
+
+---
+
+## 🎬 Demo Video & Presentation
+
+- **Demo Video (YouTube):** [https://youtu.be/LxKZY1IdO_o?si=769-ADEwUiiUuVaw](https://youtu.be/LxKZY1IdO_o?si=769-ADEwUiiUuVaw)
+- **Slide Deck:** [presentation/slides.pdf](presentation/slides.pdf)
+- **Live Application:** [https://bob-ai-hackathon-codecrafter-3arr.vercel.app/](https://bob-ai-hackathon-codecrafter-3arr.vercel.app/)
