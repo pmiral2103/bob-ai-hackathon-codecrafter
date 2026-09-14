@@ -25,15 +25,16 @@ Analyze the request and return ONLY a raw JSON object (without any markdown bloc
   "newLocation": null
 }`;
 
-    // 2. Call Groq API with robust model
+    // 2. Call Groq API with available model
     const groqResponse = await fetch('https://api.groq.com/openai/v1/chat/completions', {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${groqApiKey}`,
         'Content-Type': 'application/json',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
       },
       body: JSON.stringify({
-        model: 'llama-3.3-70b-versatile',
+        model: 'openai/gpt-oss-120b',
         messages: [
           { role: 'system', content: 'You are a port optimization AI copilot. You strictly return only valid JSON matching the requested schema.' },
           { role: 'user', content: prompt }
